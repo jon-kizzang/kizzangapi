@@ -1,0 +1,17 @@
+{
+    "name": "rogeriopradoj/codeigniter-skeleton",
+    "description": "Skeleton application for codeigniter",
+    "require": {
+        "aws/aws-sdk-php": "2.6.2",
+        "predis/predis": "1.1.*@dev",
+        "exeu/apai-io": "~2.0"
+    },
+    
+    "license": "OSL-3.0",
+    "authors": [
+        {
+            "name": "Rogerio Prado de Jesus",
+            "email": "rogeriopradoj@gmail.com"
+        }
+    ]
+}

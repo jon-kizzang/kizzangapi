@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<!DOCTYPE cross-domain-policy SYSTEM
+"http://www.adobe.com/xml/dtds/cross-domain-policy.dtd">
+
+<cross-domain-policy>
+    <site-control permitted-cross-domain-policies="master-only" />
+    
+    <allow-access-from domain="*" secure="false" />
+    <allow-access-from domain="*.kizzangsweepstakes.com" />
+    <allow-access-from domain="*.kizzang.com" />
+    
+    <allow-http-request-headers-from domain="*" secure="false" headers="*" />
+    <allow-http-request-headers-from domain="*.kizzangsweepstakes.com" headers="*" />
+    <allow-http-request-headers-from domain="*.kizzang.com" headers="*" />
+</cross-domain-policy>

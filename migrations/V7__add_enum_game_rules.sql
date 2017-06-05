@@ -1,0 +1,1 @@
+ALTER TABLE `kizzang`.`GameRules` CHANGE COLUMN `gameType` `gameType` ENUM('Slots','Scratchers','Sweepstakes','Parlay','BG','FT', '365Vegas') NOT NULL DEFAULT 'Slots' ;

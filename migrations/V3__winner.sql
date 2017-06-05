@@ -1,0 +1,1 @@
+Alter table Winners add prize_email varchar(200) after prize_name;
